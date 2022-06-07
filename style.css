@@ -1,0 +1,122 @@
+*{
+    box-sizing:content-box;
+
+}
+#contain{
+    background:url(#SVG);
+}
+
+#SVG{
+    order:3;
+}
+body{
+    background-color: rgb(39, 36, 36);
+}
+.mainpic {
+    float: left;
+    object-fit:cover ;
+    width: 200px;
+    height: 350px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 20px blue;
+}
+.mainname{
+    color:white;
+    padding-left:10px;
+    font-weight:bold;
+    text-shadow: 0 0 10px red;
+    
+    
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lala{
+    border:10px white;
+    border-radius:3px;
+    margin:2px;
+    padding:20px;
+    color:white;
+    text-decoration:none;
+    font-weight:800;
+   
+}
+.git{
+    border-radius: 50%;
+}
+
+.social{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo:hover{
+    height:20px;
+    width:20px;
+
+}
+.lala:hover{
+    color:white;
+    padding: 10px;
+    
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+.hobbies{
+    display:grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+.hobbies{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
+
+.progress{
+    
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:600px){
+    
+    .main{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .lala{
+        padding:5px;
+    }
+    .card-group{
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+    .mainpic{
+        object-fit: cover;
+        height:100px;
+        overflow:hidden;
+        border-radius: 50%;
+    }
+    
+    
+
+
+}
+
